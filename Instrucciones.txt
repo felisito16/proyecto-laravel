@@ -1,0 +1,28 @@
+INSTRUCCIONES
+
+1. Instalamos un servidor como WAMP/XAMP
+
+2. Vamos a la web del "Composer" y nos
+descargamos su instalador y lo ejecutamos-
+- NO marcamos la opcione de development mode
+- Seleccionamos el archivo "php.exe" del
+servidor que hayamos instalado en el punto 1
+- Por ultimo si usamos proxy lo definimos, sino
+le damos Next.
+
+3. Abrimos un CMD y ejecutamos:
+>composer --version
+- Con esto sabremos si se ha instalado
+correctamente el composer
+
+4. Vamos a la carpeta "www" del servidor 
+que hayamos instalado y creamos una carpeta dentro
+que se llame proyecto-laravel
+
+5. Luego volvemos al CMD y crearemos un proyecto
+demo de Laravel usando el comando:
+>composer create-project laravel/laravel probando laravel  --prefer-dist
+- Esto empezara a descargar/instalar los paquetes necesarios
+para crear el proyecto, tardara un rato.
+
+6.
